@@ -1,6 +1,7 @@
 <script>
     import Color from '$lib/Color.svelte';
     let colorName = 'Pink';
+    let colorName2 = 'Lightgreen';
 </script>
 
 <div>
@@ -10,6 +11,10 @@
 <div>
     <input bind:value={colorName} />
     <Color color={colorName} />
+</div>
+<div>
+    <input bind:value={colorName2} />
+    <Color color={colorName2} />
 </div>
 
 <style>
