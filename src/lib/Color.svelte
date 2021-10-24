@@ -1,6 +1,6 @@
 <script>
     export let color;
-    export let color2;
+    
 </script>
 
 <div style="background:{color}">
